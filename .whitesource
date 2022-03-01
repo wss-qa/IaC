@@ -1,7 +1,7 @@
 {
   "scanSettings": {
     "configMode": "AUTO",
-    "baseBranches": [main],
+    "baseBranches": [],
     "enableLicenseViolations": true,
     "enableIaC": true
   },
