@@ -1,15 +1,17 @@
 {
   "scanSettings": {
     "configMode": "AUTO",
-    "configExternalURL": "",
     "baseBranches": [],
+    "enableLicenseViolations": true,
     "enableIaC": true
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
+    "licenseCheckRunConclusionLevel": "success",
     "displayMode": "diff"
   },
   "issueSettings": {
-    "minSeverityLevel": "LOW"
+    "minSeverityLevel": "HIGH",
+    "displayLicenseViolations": false
   }
 }
